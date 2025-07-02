@@ -1,0 +1,34 @@
+# Join our discord - https://discord.gg/YGzA4UxzFB you can find another good plugins there.
+# Permissions
+# "autoReplant.reload" - permission required to use "/autoreplant reload" command
+
+# permission required to use AutoReplant
+permission: "autoReplant.use"
+
+# if true, player must be in Survival mode to use AutoReplant
+onlyInSurvival: true
+
+# if true, plugin will skip replanting if item in hand is bone meal
+# because the player most likely intended to grow the crop
+skipBoneMeal: true
+
+# if true, AutoReplant will consider Fortune enchantment
+considerFortune: true
+
+# only these crops will be replanted
+validCrops:
+  - WHEAT
+  - BEETROOTS
+  - NETHER_WART
+  - CARROTS
+  - POTATOES
+
+# if true, plugin will require specific items to use AutoReplant
+requireMaterial: false
+items:
+  - DIAMOND_HOE
+
+# supports MiniMessage
+usage: "<red>✘ <white>Usage: /autoreplant reload"
+noPermissionToReload: "<red>✘ <white>You don't have permission to reload Config!"
+configReloaded: "<green>✔ <white>Config reloaded!"

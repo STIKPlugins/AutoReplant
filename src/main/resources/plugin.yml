@@ -1,0 +1,7 @@
+name: AutoReplant
+version: '1.0'
+main: me.stokmenn.autoreplant.AutoReplant
+api-version: '1.21'
+folia-supported: true
+commands:
+  autoreplant:
